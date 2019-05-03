@@ -1,6 +1,6 @@
 {
-  "name": "inline-styles",
-  "version": "1.0.0",
+  "name": "@amendable/inline-styles",
+  "version": "0.1.0",
   "main": "dist/commonjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
@@ -8,7 +8,11 @@
     "dist/esm"
   ],
   "license": "MIT",
-  "private": true,
+  "homepage": "https://github.com/amendable/inline-styles",
+  "bugs": {
+    "url": "https://github.com/amendable/inline-styles/issues"
+  },
+  "repository": "amendable/inline-styles",
   "devDependencies": {
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
