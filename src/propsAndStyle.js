@@ -9,6 +9,8 @@ const propsAndStyle = (originalProps) => {
 
     if (cssNameMatch(key)) {
       style[key] = value;
+    } else if (key === 'style') {
+      Object.assign(style, originalProps[key]);
     } else {
       props[key] = value;
     }
