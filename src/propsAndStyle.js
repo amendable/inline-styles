@@ -1,13 +1,13 @@
-import cssNameMatch from './cssNameMatch';
+import { hasProperty } from '@amendable/inline-style-properties';
 
-const propsAndStyle = (originalProps) => {
+export default (originalProps) => {
   const style = {};
   const props = {};
 
   Object.keys(originalProps).forEach(key => {
     const value = originalProps[key];
 
-    if (cssNameMatch(key)) {
+    if (hasProperty(key)) {
       style[key] = value;
     } else if (key === 'style') {
       Object.assign(style, originalProps[key]);
@@ -18,5 +18,3 @@ const propsAndStyle = (originalProps) => {
 
   return { style, props };
 }
-
-export default propsAndStyle;

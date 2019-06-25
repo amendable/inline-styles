@@ -22,9 +22,7 @@
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
     "@babel/runtime": "^7.4.5",
-    "camelcase-css": "^2.0.1",
-    "jest": "^24.8.0",
-    "known-css-properties": "^0.14.0"
+    "jest": "^24.8.0"
   },
   "scripts": {
     "test": "jest",
@@ -33,5 +31,8 @@
     "build-commonjs": "NODE_ENV=production BABEL_ENV=commonjs babel src --out-dir dist/commonjs --config-file ./babel.config.js  --copy-files",
     "build-esm": "NODE_ENV=production BABEL_ENV=esm babel src --out-dir dist/esm --config-file ./babel.config.js  --copy-files",
     "update-data": "node ./scripts/updateData"
+  },
+  "dependencies": {
+    "@amendable/inline-style-properties": "^0.1.0"
   }
 }
