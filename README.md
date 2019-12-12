@@ -1,6 +1,6 @@
 # Inline styles
 
-This resolvers merges all the React props that match the names of styling props into the `style` object on the final DOM object.
+This resolver merges all the React props that match the names of styling props into the `style` object on the final DOM object.
 
 ## Usage
 ```jsx sandbox
@@ -23,7 +23,6 @@ render(
 
 ## Supported props
 
-It uses [inline-style-properties](https://github.com/amendable/inline-style-properties) underneath for prop matching.
+It supports longer forms as described [here](https://github.com/amendable/spacing-aliases/blob/master/src/index.js#L3-L8).
 
-Here are all the styling props it supports (it supports most): 
-[Supported styling properties](https://github.com/amendable/inline-style-properties/blob/master/src/inlineProperties.json)
+The shorter form syntax thats supported is [here](https://github.com/amendable/spacing-aliases/blob/master/src/shortMiddleware.js).
