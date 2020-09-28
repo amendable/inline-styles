@@ -25,5 +25,4 @@ render(
 
 It uses [inline-style-properties](https://github.com/amendable/inline-style-properties) underneath for prop matching.
 
-Here are all the styling props it supports (it supports most): 
-[Supported styling properties](https://github.com/amendable/inline-style-properties/blob/master/src/inlineProperties.json)
+Here are all the styling props it supports (it supports most): [standard](https://github.com/amendable/inline-style-properties/blob/master/src/inlineStandardProperties.json) and [vendor](https://github.com/amendable/inline-style-properties/blob/master/src/inlineVendorProperties.json)
