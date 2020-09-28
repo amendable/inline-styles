@@ -33,6 +33,6 @@
     "update-data": "node ./scripts/updateData"
   },
   "dependencies": {
-    "@amendable/inline-style-properties": "^0.3.0"
+    "@amendable/inline-style-properties": "^0.6.0"
   }
 }

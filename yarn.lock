@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@amendable/inline-style-properties@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@amendable/inline-style-properties/-/inline-style-properties-0.3.0.tgz#8f694f134fa02ec9f10d31ac90883693cd65ad4e"
-  integrity sha512-xpFwOd97zfkFqRGZNi6yc96mfPyBLiQbqRBfn861QE1ipkOVai7sD0LCzR8+89x4jO9enpNf/W/HXVty/5JoeQ==
+"@amendable/inline-style-properties@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@amendable/inline-style-properties/-/inline-style-properties-0.6.0.tgz#4b24046c3039acfa29a64b5983dcc7a3c6835272"
+  integrity sha512-o3aNE0zEYiJzYtuGpFBu6rJ8kcSPJ8ZTOzTRUdXSnCi8TZG9N/ano037F1jIqz3h93lN/QBr3iG7a6H6nH4E0w==
   dependencies:
-    mem "^5.1.1"
+    mem "^6.1.1"
 
 "@babel/cli@^7.11.6":
   version "7.11.6"
@@ -3327,14 +3327,13 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-mem@^5.1.1:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/mem/-/mem-5.1.1.tgz#7059b67bf9ac2c924c9f1cff7155a064394adfb3"
-  integrity sha512-qvwipnozMohxLXG1pOqoLiZKNkC4r4qqRucSoDwXowsNGDSULiqFTRUF05vcZWnwJSG22qTsynQhxbaMtnX9gw==
+mem@^6.1.1:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/mem/-/mem-6.1.1.tgz#ea110c2ebc079eca3022e6b08c85a795e77f6318"
+  integrity sha512-Ci6bIfq/UgcxPTYa8dQQ5FY3BzKkT894bwXWXxC/zqs0XgMO2cT20CGkOqda7gZNkmK5VP4x89IGZ6K7hfbn3Q==
   dependencies:
     map-age-cleaner "^0.1.3"
-    mimic-fn "^2.1.0"
-    p-is-promise "^2.1.0"
+    mimic-fn "^3.0.0"
 
 merge-stream@^2.0.0:
   version "2.0.0"
@@ -3384,6 +3383,11 @@ mimic-fn@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
   integrity sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==
+
+mimic-fn@^3.0.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-3.1.0.tgz#65755145bbf3e36954b949c16450427451d5ca74"
+  integrity sha512-Ysbi9uYW9hFyfrThdDEQuykN4Ey6BuwPD2kpI5ES/nFTDn/98yxYNLZJcgUAKPT/mcrLLKaGzJR9YVxJrIdASQ==
 
 minimatch@^3.0.4:
   version "3.0.4"
@@ -3603,11 +3607,6 @@ p-finally@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/p-finally/-/p-finally-1.0.0.tgz#3fbcfb15b899a44123b34b6dcc18b724336a2cae"
   integrity sha1-P7z7FbiZpEEjs0ttzBi3JDNqLK4=
-
-p-is-promise@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/p-is-promise/-/p-is-promise-2.1.0.tgz#918cebaea248a62cf7ffab8e3bca8c5f882fc42e"
-  integrity sha512-Y3W0wlRPK8ZMRbNq97l4M5otioeA5lm1z7bkNkxCka8HSPjR0xRWmpCmc9utiaLP9Jb1eD8BgeIxTW4AIF45Pg==
 
 p-limit@^2.2.0:
   version "2.3.0"
