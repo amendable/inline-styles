@@ -27,3 +27,9 @@ it('returns correct props and style with vendor style and includeVendor option',
   expect(style).toEqual({});
   expect(props).toEqual({ test: 'me', MozBorderRadius: '12px' });
 })
+
+it('returns correct props and style when exclude is provided', () => {
+  const { style, props } = propsAndStyle({ display: 'block', test: 'me' }, { exclude: ['display'] });
+  expect(style).toEqual({});
+  expect(props).toEqual({ test: 'me', display: 'block' });
+})
